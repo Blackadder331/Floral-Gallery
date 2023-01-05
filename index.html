@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floral Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+    <div class="app">
+
+        <div class="cardList">
+            <button class="cardList__btn btn btn--left">
+                <div class="icon">
+                    <svg>
+                        <use xlink:href="#arrow-left"></use>
+                    </svg>
+                </div>
+            </button>
+    
+            <div class="cards__wrapper">
+                <div class="card current--card">
+                    <div class="card__image">
+                        <img src="./images/Einard_Safe_Space_botanical_illustration_wallpaper_pattern_on_b_17f8d44c-d452-4a14-98ac-2c566a784d8d.png" alt="" />
+                    </div>
+                </div>
+    
+                <div class="card next--card">
+                    <div class="card__image">
+                        <img src="./images/Einard_Safe_Space_cherry_blossom_botanical_illustration_wallpap_4d954c3e-e37b-4659-9ad8-090e4cd38e27.png" alt="" />
+                    </div>
+                </div>
+    
+                <div class="card previous--card">
+                    <div class="card__image">
+                        <img src="./images/Einard_Safe_Space_botanical_illustration_wallpaper_pattern_on_b_9a2f72d3-7483-4c6f-be35-70cd36170c7a.png" alt="" />
+                    </div>
+                </div>
+            </div>
+    
+            <button class="cardList__btn btn btn--right">
+                <div class="icon">
+                    <svg>
+                        <use xlink:href="#arrow-right"></use>
+                    </svg>
+                </div>
+            </button>
+        </div>
+    
+        <div class="infoList">
+            <div class="info__wrapper">
+                <div class="info current--info">
+                    <h1 class="text name">Texture</h1>
+                    <h4 class="text location">Touch</h4>
+                    <p class="text description">Bristling stems, delicate flowers, and soft leaves</p>
+                </div>
+    
+                <div class="info next--info">
+                    <h1 class="text name">Fragrance</h1>
+                    <h4 class="text location">Smell</h4>
+                    <p class="text description">Flowering somei-yoshino on a Tokyo morning</p>
+                </div>
+    
+                <div class="info previous--info">
+                    <h1 class="text name">Pattern</h1>
+                    <h4 class="text location">Sight</h4>
+                    <p class="text description">Vibrant buds and intricate ferns</p>
+                </div>
+            </div>
+        </div>
+    
+    
+        <div class="app__bg">
+            <div class="app__bg__image current--image">
+                <img src="./images/Einard_Safe_Space_botanical_illustration_wallpaper_pattern_on_b_5c2ee979-063a-45ba-b922-56c258a24dc0.png" alt="" />
+            </div>
+            <div class="app__bg__image next--image">
+                <img src="./images/Einard_Safe_Space_cherry_blossom_botanical_illustration_wallpap_74043bab-c902-476a-a575-573af1a21cc2.png" alt="" />
+            </div>
+            <div class="app__bg__image previous--image">
+                <img src="./images/Einard_Safe_Space_botanical_illustration_wallpaper_pattern_on_b_59fc6c9e-989d-4a5c-85db-0fd602dd3017.png" alt="" />
+            </div>
+        </div>
+    </div>
+    
+    <div class="loading__wrapper">
+        <div class="loader--text">Potting plants...</div>
+        <div class="loader">
+            <span></span>
+        </div>
+    </div>
+    
+    
+    <svg class="icons" style="display: none;">
+        <symbol id="arrow-left" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+            <polyline points='328 112 184 256 328 400'
+                         style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+        </symbol>
+        <symbol id="arrow-right" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+            <polyline points='184 112 328 256 184 400'
+                         style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+        </symbol>
+    </svg>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
